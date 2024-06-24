@@ -1,0 +1,40 @@
+.EditUser{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 85vh;
+}
+.EditUser section{
+    border: 2px solid var(--primaryLightBorder);
+    box-shadow: var(--primaryLightShadow);
+    padding: 1rem 1rem;
+    width: 28%;
+}
+.EditUser h2{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(3, 3, 84);
+    font-family: var(--fontNurosan);
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-bottom: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0  2rem;
+}
+.form section{
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.form section:last-child{
+    margin-top: 1rem ;
+}

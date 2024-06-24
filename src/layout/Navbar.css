@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    /* width: 100%; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 12px grey ;
+    /* width: 100%; */
+}
+nav ul{
+    list-style: none;
+    margin: 1.2rem 3rem;
+}
+nav ul li:first-child{
+    text-decoration: none !important;
+    color: rgb(3, 3, 84);
+    font-size: 1.4rem;
+    font-family:var(--fontNurosan);
+    letter-spacing: 0.9px;
+    font-weight: 600;
+    line-height: 32px;
+}

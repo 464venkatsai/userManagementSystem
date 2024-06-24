@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container section{
+    margin-top: 3rem;
+    box-shadow: var(--primaryHoverEffect);
+    width : 80%;
+    padding: 1rem 2rem;
+    padding-bottom: 1.5rem;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tr{
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.tr{
+    box-shadow: var(--primaryLightShadow);
+    padding: 1rem;
+    display: flex;
+}
+
+th,td{
+    width: 15%;
+    letter-spacing: .7px;
+}
+
+.tr td:first-child,th:first-child{
+    width: 5%;
+}
+.tr td:nth-last-child(2),th:nth-last-child(2){
+    width: 25%;
+}
+.tr td:last-child,th:last-child{
+    width: 40%;
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
